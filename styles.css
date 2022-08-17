@@ -1,0 +1,119 @@
+#title{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #E7F6F2;
+   
+  
+}
+@media (max-width: 541px){
+    #title{
+        background-color: #E7F6F2;
+        width: 1000px;
+        height: 780px
+
+    }
+}
+@media (max-width: 769px){
+    #title{
+        background-color: #E7F6F2;
+        width: 1000px;
+        height: 830px;
+
+    }
+}
+.hey{
+  color: #66BFBF;
+  font-size: 20px;
+}
+.abc{
+  color: grey;
+  line-height: 57%;
+  font-size: 20px;
+  font-family: 'Hubballi', cursive;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (min-width: 4000px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+      text-align: center;
+    }
+  }
+  @media (min-width: 400px) {
+    .flex-item-right, .flex-item-left {
+      
+      text-align: center;
+    }
+  }
+.testimonail-image{
+  height: 130px;
+  
+  border-radius: 70%;
+  
+}
+#self{
+  text-align: center;
+  background-color: white;
+  
+}
+hr{
+  border-color: grey;
+  height: -19px;
+  width: 20%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 9px;
+  opacity: 0.1;
+}
+#self-intro{
+  text-align: center;
+}
+.skillimg{
+  border-radius: 30%;
+  height: 95px;
+  
+}
+.foot{
+  background-color: #E7F6F2;
+  text-align: center;
+}
+@media (min-width: 200px) and (max-width: 800px){
+  #self-intro{
+    text-align: center;
+    margin: 9px -346px 13px 168px;
+  }
+ 
+  #self {
+    text-align: center;
+    background-color: white;
+    
+    margin: 9px -346px 13px 168px;
+}
+.foot {
+  text-align: center;
+  margin: 0px -346px 0px 0px;
+  width: 1000px;
+}
+}
